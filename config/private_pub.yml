@@ -1,0 +1,10 @@
+development:
+  server: "http://localhost:9292/faye"
+  secret_token: "secret"
+test:
+  server: "http://localhost:9292/faye"
+  secret_token: "secret"
+production:
+  server: "http://beemlistening.herokuapp.com/faye"
+  secret_token: "8ff38972c865452dcc7d573216cd1fdbe58209d876ffd7bd3b1e07b67c7baf16"
+  signature_expiration: 3600 # one hour
